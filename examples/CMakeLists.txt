@@ -81,6 +81,7 @@ function(cutlass_example_add_executable NAME)
 endfunction()
 
 foreach(EXAMPLE
+  000
   00_basic_gemm
   01_cutlass_utilities
   02_dump_reg_shmem
